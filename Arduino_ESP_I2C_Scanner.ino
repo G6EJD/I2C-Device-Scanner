@@ -8,8 +8,8 @@
 
 #include <Wire.h>
 
-const int SCLpin = 14;
-const int SDApin = 12;
+const int SCLpin = 22;
+const int SDApin = 21; // For ESP32 Lolin D32
 
 void setup()
 {
